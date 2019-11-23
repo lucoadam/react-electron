@@ -83,6 +83,7 @@ export default class Form9 extends React.Component {
         dakhilGabisa:'',
         dakhilOda:'',
         dakhilSabik:'',
+        dakhilChetrafal1:'',
         dakhilTarfha:'',
         dakhilKirta:'',
         dakhilChetrafal:'',
@@ -198,12 +199,13 @@ export default class Form9 extends React.Component {
         </Fragment>
         ) : (
           <Fragment>
-              <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n       .info, label, .infoo, tr th, input, h3, tbody tr td, div.para {\n    font-family: 'Preeti';\n     input:-ms-input-placeholder{\n            font-family: 'Preeti';\n            font-size: 20px;\n\n        }\n        input::-moz-placeholder{\n            font-family: 'Preeti';\n            font-size: 20px;\n\n        }\n        input::-webkit-input-placeholder{\n            font-family: 'Preeti';\n            font-size: 20px;\n\n        }\n        input[type=text],\n        input[type=number],\n        input[type=date],\n        select {\n            width: 90%;\n            padding: 12px 20px;\n            margin: 8px 0;\n            display: block;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n        }\n\n        .form-group {\n            width: 50%;\n        }\n\n        .form-control {\n            display: flex;\n            flex-direction: row;\n            justify-content: space-between;\n            align-items: center;\n            /* flex-flow: row wrap; */\n        }\n\n        input[type=date] {\n            height: 41px;\n        }\n\n        input[type=submit] {\n            width: 20%;\n            background-color: #4CAF50;\n            color: white;\n            padding: 14px 20px;\n            margin: auto;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n        }\n\n        input[type=submit]:hover {\n            background-color: #45a049;\n        }\n\n        div.container {\n            border-radius: 5px;\n            background-color: #f2f2f2;\n            padding: 20px;\n        }\n\n        .heading {\n            margin-left: 48%;\n        }\n\n        .info {\n            width: 100%;\n            background-color: rgb(76, 127, 175);\n            color: white;\n            padding: 14px 20px;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n            text-align: center;\n        }\n\n        .infoo {\n            width: 20%;\n            background-color: rgb(76, 127, 175);\n            color: white;\n            border-radius: 4px;\n            cursor: pointer;\n            text-align: center;\n        }\n\n        table,\n        th,\n        td {\n            border: 1px solid black;\n            border-collapse: collapse;\n        }\n\n        th,\n        td {\n            padding: 5px;\n        }\n\n        #button {\n            height: 50px;\n            width: 40px;\n        }\n    "
-    }}
-  />
+          <style
+  dangerouslySetInnerHTML={{
+    __html:
+      "\n        body {\n            font-family: 'Preeti';\n            font-size: 20px;\n        }\n        input:-ms-input-placeholder{\n            font-family: 'Preeti';\n            font-size: 20px;\n\n        }\n        input::-moz-placeholder{\n            font-family: 'Preeti';\n            font-size: 20px;\n\n        }\n        input::-webkit-input-placeholder{\n            font-family: 'Preeti';\n            font-size: 20px;\n\n        }\n        input[type=text],\n        input[type=number],\n        input[type=date],\n        select {\n            width: 90%;\n            padding: 12px 20px;\n            margin: 8px 0;\n            display: block;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n        }\n\n        .form-group {\n            width: 50%;\n        }\n\n        .form-control {\n            display: flex;\n            flex-direction: row;\n            justify-content: space-between;\n            align-items: center;\n            /* flex-flow: row wrap; */\n        }\n\n        input[type=date] {\n            height: 41px;\n        }\n\n        input[type=submit] {\n            width: 20%;\n            background-color: #4CAF50;\n            color: white;\n            padding: 14px 20px;\n            margin: auto;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n        }\n\n        input[type=submit]:hover {\n            background-color: #45a049;\n        }\n\n        div.container {\n            border-radius: 5px;\n            background-color: #f2f2f2;\n            padding: 20px;\n        }\n\n        .heading {\n            margin-left: 48%;\n        }\n\n        .info {\n            width: 100%;\n            background-color: rgb(76, 127, 175);\n            color: white;\n            padding: 14px 20px;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n            text-align: center;\n        }\n\n        .infoo {\n            width: 20%;\n            background-color: rgb(76, 127, 175);\n            color: white;\n            border-radius: 4px;\n            cursor: pointer;\n            text-align: center;\n        }\n\n        table,\n        th,\n        td {\n            border: 1px solid black;\n            border-collapse: collapse;\n        }\n\n        th,\n        td {\n            padding: 5px;\n        }\n\n        #button {\n            height: 50px;\n            width: 40px;\n        }\n    "
+  }}
+/>
+
   <div className={styles.maincontainer} data-tid="maincontainer">
               <div className={styles.mainhead} data-tid="mainhead">
       <h3>l6Kk0fL cfb]z</h3>
@@ -225,7 +227,7 @@ export default class Form9 extends React.Component {
         <div className="form-group">
           <label htmlFor="dartanum">lga]bg btf{"{"} g</label>
           <input onChange={this.handleChange}
-            type="number"
+            type="text"
             id="dartanum"
             name="dartaNumber"
             placeholder="lga]bg btf{ g"
@@ -233,7 +235,7 @@ export default class Form9 extends React.Component {
         </div>
         <div className="form-group">
           <label htmlFor="Miti">ldlt</label>
-          <input onChange={this.handleChange} type="date" id="Miti" name="dartaMiti" placeholder="ldlt" />
+          <input onChange={this.handleChange} type="text" id="Miti" name="dartaMiti" placeholder="ldlt" />
         </div>
       </div>
       <br />
@@ -408,6 +410,7 @@ export default class Form9 extends React.Component {
         df]xL &gt;L <input onChange={this.handleChange} type="name" id="naam1" name="naam1" />
         sf] gfddf sfod x'g] lsQf hUufsf] lja/0f
       </div>
+      <br/>
       {this.state.showKirtajaggaArray?(<FieldArray title={[
         'lhNnf',
         'Ufflj;',
@@ -424,7 +427,7 @@ export default class Form9 extends React.Component {
 
 
     
-      <input type="checkbox" name="showKirtajagga1Array" onChange={this.handleCheckboxChange} checked={this.state.showKirtajagga1Array}/>
+      {/* <input type="checkbox" name="showKirtajagga1Array" onChange={this.handleCheckboxChange} checked={this.state.showKirtajagga1Array}/>
       <br />
       <div className="para">
         hUufwgLsf] &gt;L
@@ -444,9 +447,10 @@ export default class Form9 extends React.Component {
                   value={this.state.kirtajagga1Array}
                   onChange={this.handleArrayChange}
                   />):('')}
+      <br /> */}
       <br />
-      <br />
-      <input type="submit" defaultValue="फारम बुझाउनुहोस्" />
+      <br/>
+      <input type="submit" value="फारम बुझाउनुहोस्" />
     </form>
   </div>
           </Fragment>

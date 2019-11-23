@@ -304,6 +304,9 @@ export default function returnHtml(props) {
           width: 357mm;
         }
       }
+      *{
+        font-family: Preeti, serif;
+      }
     </style>
 
     <!-- Set page size here: A5, A4 or A3 -->
@@ -449,6 +452,11 @@ export default function returnHtml(props) {
           >
         </p>
         ${props.showNibedakArray?(`<p style="margin-bottom: 0.11in">
+        <font face="Preeti, serif"
+          ><font size="4">!=lga]bssf] lja/0f</font></font
+        >
+      </p>
+      <table width="612" cellpadding="7" cellspacing="0">
           <colgroup>
             <col width="89" />
             <col width="90" />
@@ -526,37 +534,37 @@ export default function returnHtml(props) {
                 width="89"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.nibedakNaamThar}</p>
+                <p>${each.nibedakNaamThar}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.nibedakNagariktaNumber}</p>
+                <p>${each.nibedakNagariktaNumber}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.nibedakNagariktaJariMiti}</p>
+                <p>${each.nibedakNagariktaJariMiti}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.nibedakNagariktaJariJilla}</p>
+                <p>${each.nibedakNagariktaJariJilla}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.nibedakBabuPitakoNaam}</p>
+                <p>${each.nibedakBabuPitakoNaam}</p>
               </td>
               <td
                 width="77"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.nibedakBajeSasuraNaam}</p>
+                <p>${each.nibedakBajeSasuraNaam}</p>
               </td>
               </tr>`);
             })}
@@ -645,37 +653,37 @@ export default function returnHtml(props) {
                 width="89"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaNaamThar}</p>
+                <p>${each.jaggaNaamThar}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaNagariktaNumber}</p>
+                <p>${each.jaggaNagariktaNumber}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaNagariktaJariMiti}</p>
+                <p>${each.jaggaNagariktaJariMiti}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaNagariktaJariJilla}</p>
+                <p>${each.jaggaNagariktaJariJilla}</p>
               </td>
               <td
                 width="90"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBabuPitakoNaam}</p>
+                <p>${each.jaggaBabuPitakoNaam}</p>
               </td>
               <td
                 width="77"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBajeSasuraNaam}</p>
+                <p>${each.jaggaBajeSasuraNaam}</p>
               </td>
               </tr>`);
             })}
@@ -829,61 +837,61 @@ export default function returnHtml(props) {
                 width="44"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranJilla}</p>
+                <p>${each.jaggaBibaranJilla}</p>
               </td>
               <td
                 width="45"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranGabisa}</p>
+                <p>${each.jaggaBibaranGabisa}</p>
               </td>
               <td
                 width="86"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranWadaNumberSitNumber}</p>
+                <p>${each.jaggaBibaranWadaNumberSitNumber}</p>
               </td>
               <td
                 width="43"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranKitaNumber}</p>
+                <p>${each.jaggaBibaranKitaNumber}</p>
               </td>
               <td
                 width="41"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranKsytrafal}</p>
+                <p>${each.jaggaBibaranKsytrafal}</p>
               </td>
               <td
                 width="34"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranJilla1}</p>
+                <p>${each.jaggaBibaranJilla1}</p>
               </td>
               <td
                 width="35"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranGabisa1}</p>
+                <p>${each.jaggaBibaranGabisa1}</p>
               </td>
               <td
                 width="52"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranWadaNumberSitNumber1}</p>
+                <p>${each.jaggaBibaranWadaNumberSitNumber1}</p>
               </td>
               <td
                 width="88"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranKitaNumber1}</p>
+                <p>${each.jaggaBibaranKitaNumber1}</p>
               </td>
               <td
                 width="57"
                 style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in"
               >
-                <p><br />${each.jaggaBibaranKsytrafal1}</p>
+                <p>${each.jaggaBibaranKsytrafal1}</p>
               </td>
               </tr>`);
             })}

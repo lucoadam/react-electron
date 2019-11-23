@@ -284,12 +284,10 @@ export default class Form10 extends React.Component {
                   onChange={this.handleArrayChange}
       />
       <br />
-      <br />
+      <br/>
       </Fragment>):<Fragment>
       <div className="infoo">@= hUUffwgLsf] lja/0f</div>
       </Fragment>}
-      <br/>
-      <br/>
       <div className="infoo">#=;+zf]wg x'g] lja/0f</div>
       <br />
       <input type="checkbox" name="showJaggaBibaranArray" onChange={this.handleCheckboxChange} checked={this.state.showJaggaBibaranArray}/>
@@ -321,8 +319,6 @@ export default class Form10 extends React.Component {
       <br />
       <br />
       <div className="infoo">hUUffwgLsf] lja/0f</div>
-      <br />
-      <br />
       <input type="checkbox" name="showJaggaFoundArray" onChange={this.handleCheckboxChange} checked={this.state.showJaggaFoundArray}/>
       {this.state.showJaggaFoundArray?(<Fragment>
         <div className="para">ePsf]</div>
